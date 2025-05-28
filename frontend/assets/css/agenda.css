@@ -1,0 +1,126 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 2rem;
+	max-width: 850px;
+}
+
+.title-agenda {
+	font-size: 3rem;
+	font-weight: 600;
+	color: var(--primary-color-dark);
+	margin-bottom: 2rem;
+}
+
+.subtitle-agenda {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--letter-color);
+	margin-bottom: 2rem;
+}
+
+.table-container {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* Estilização refinada da tabela */
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table thead {
+	background-color: var(--primary-color-dark);
+}
+
+.table th {
+	padding: 14px 18px;
+	text-align: center;
+	border-bottom: none;
+	position: relative;
+}
+.table td {
+	padding: 14px 18px;
+	text-align: left;
+	border-bottom: none;
+	position: relative;
+}
+
+.table th {
+	padding: 15px 18px;
+	font-weight: 600;
+	color: var(--primary-color);
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	letter-spacing: 0.5px;
+	border-bottom: none;
+}
+
+.table td {
+	padding: 12px 18px;
+	border-bottom: 1px solid #eaeaea;
+	color: var(--letter-color);
+	font-size: 0.95rem;
+	vertical-align: middle;
+}
+
+.table tbody tr {
+	background-color: white;
+	transition: transform 0.2s ease;
+}
+
+.table tbody tr:hover {
+	background-color: rgba(var(--primary-color-rgb), 0.05);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+.table tbody tr td:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 25%;
+	height: 50%;
+	width: 1px;
+	background-color: #e9ecef;
+}
+
+.text-edit {
+	color: var(--primary-color-dark);
+	font-weight: 500;
+	transition: color 0.2s ease;
+	padding: 6px 10px;
+	border-radius: 4px;
+	background-color: rgba(var(--primary-color-rgb), 0.1);
+}
+
+.text-edit:hover {
+	color: var(--primary-color);
+	background-color: rgba(var(--primary-color-rgb), 0.2);
+}
+
+.text-danger {
+	color: #dc3545;
+	font-weight: 500;
+	transition: color 0.2s ease;
+	padding: 6px 10px;
+	border-radius: 4px;
+	background-color: rgba(220, 53, 69, 0.1);
+}
+
+.text-danger:hover {
+	color: #fff;
+	background-color: #dc3545;
+}

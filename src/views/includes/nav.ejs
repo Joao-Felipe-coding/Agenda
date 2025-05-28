@@ -1,0 +1,18 @@
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <h1><a href="/">Agenda</a></h1>
+    </div>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/contato/index">Cadastrar contato</a></li>
+      <% if(user) { %>
+        <li><a href="/login/logout">Sair</a></li>
+      <% } else { %>
+        <li><a href="/login/index">Entrar</a></li>
+      <% } %>
+    </ul>
+  </nav>
+</header>
