@@ -178,4 +178,4 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](
 
 ---
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario) - &copy; 2025
+Desenvolvido por [João Felipe](https://github.com/Joao-Felipe-coding) - &copy; 2025
